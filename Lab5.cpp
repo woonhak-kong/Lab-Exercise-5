@@ -46,12 +46,14 @@ int main()
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 14);
 	cout << "====================== Average Number ========================" << endl;
 	cout << averageNumber << endl;
+	cout << endl;
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 11);
 	cout << "============== Less Than or Equal To Average =================" << endl;
 	for (vector<int>::iterator iterPos = lessThanOrEqToAverageNums.begin() ; iterPos != lessThanOrEqToAverageNums.end(); iterPos++)
 	{
 		cout << *iterPos << "  ";
 	}
+	cout << endl;
 	cout << endl;
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 10);
 	cout << "=================== Greater Than Average =====================" << endl;
